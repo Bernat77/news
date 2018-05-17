@@ -3,8 +3,7 @@
 }
 
 #eslogan{
-  background-image: url(https://2ch.hk/b/arch/2017-04-07/src/150468234/14915860284170.jpg); 
-  //background-color:transparent;
+  background-image: url(img/fondotron.jpg); 
   background-size:cover;
 }
 
@@ -38,9 +37,7 @@
         }
   
   #publi1{
-    background:black;
-    height:100px;
-    width:200px;
+    padding:20px;
   }
   
   
