@@ -1,15 +1,37 @@
+html, body{
+	height:100%;
+	padding:0px;
+	margin:0px;
+}
+
+
 #barranav{
   background:linear-gradient(mediumorchid, indigo,black,black, black);
 }
 
 #eslogan{
-  background-image: url(https://2ch.hk/b/arch/2017-04-07/src/150468234/14915860284170.jpg); 
-  //background-color:transparent;
+<<<<<<< HEAD
+  background-image: url(https://rawgit.com/Bernat77/news/master/img/fondotron.jpg); 
+=======
+  background-image: url(../img/fondotron.jpg); 
+>>>>>>> a68745e4944f7d9e701be1747f5f75e673d1f4ae
   background-size:cover;
 }
 
 #logo{
-  max-height: 290px;
+  max-height: 380px;
+  background: rgba(300, 300, 300, 0.28);
+  border: 2px solid transparent;
+  border-radius: 200px;
+  transition-duration:0.3s;
+
+}
+
+#logo:hover{
+background: rgba(300, 0, 300, 0.6);
+ transform: scale(1.1, 1.1);
+border: 2px solid hotpink;
+    border-radius: 200px;
 }
 
 #barra{
@@ -17,7 +39,7 @@
   background: linear-gradient(black,white,pink,fuchsia, violet);
 }
 
-   .nav a {
+ .nav a {
         transition-duration:0.1s;
         font-size: 20px !important;
         font-family: fantasy;
@@ -32,16 +54,101 @@
     border-radius: 20px;
 }
 
-@media(max-width:767px) {
-      #icono{
+  #publi1{
+    display:none;
+  }
+
+  #publi2{
+	position:relative;
+      float: right;
+        width: 300px;
+        top: 20px;
+        right: 15px;
+    z-index:2;
+}
+
+#noticias{
+  position:relative;
+    padding-right:350px;
+  top:30px;
+}
+
+.cuadro{
+  background-color:indigo;
+  border-radius:20px;
+  padding:10px;
+  color:white;
+    transition-duration:0.2s;
+  }
+
+.cuadro:hover{
+  transform: scale(1.05,1.05);
+  transition-duration:0.35s;
+}
+
+
+/*              --movil--              */
+@media(max-width:991px) {
+  
+  #noticias{
+  position:relative;
+  float:left;
+  padding-top:20px;
+  padding-right:0px;
+}
+  .cuadro{
+  background-color:indigo;
+  border-radius:20px;
+    margin-top:2%;
+    margin-bottom:4%;
+  color:white; 
+  }
+  
+  #publi2{
+    display:none;
+  }
+  #icono{
         padding-left:15px;
         }
   
   #publi1{
-    background:black;
+<<<<<<< HEAD
+    position:relative;
+    display:block;
+    top:20px;
+    bottom:20px;
+    padding:0;
+  }
+  #publi1 img{
+    width:287px;
     height:100px;
-    width:200px;
+    border: 1px solid indigo;
+    border-radius: 5px;
+  }
+  
+  
+  #logo{
+  max-height: 380px;
+  background: rgba(300, 300, 300, 0.15);
+  border: 2px solid transparent;
+  border-radius: 200px;
+  transition-duration:0.3s;
+
+}
+
+#logo:hover{
+background: rgba(300, 300, 300, 0.1);
+ transform: scale(1.05, 1.05);
+border: 2px solid transparent;
+    border-radius: 200px;
+}
+  
+  
+}
+=======
+    padding:20px;
   }
   
   
 }
+>>>>>>> a68745e4944f7d9e701be1747f5f75e673d1f4ae
