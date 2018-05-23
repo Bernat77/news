@@ -5,7 +5,7 @@ html, body{
 }
 
 body{
-background-image:url(https://rawgit.com/Bernat77/news/0.1/img/fondobody.png);
+background-image:url(../img/fondobody.png);
   background-size:;
 }
 
@@ -30,7 +30,7 @@ background-image:url(https://rawgit.com/Bernat77/news/0.1/img/fondobody.png);
 }
 
 #eslogan{
-  background-image: url(https://rawgit.com/Bernat77/news/master/img/fondotron.jpg); 
+  background-image: url(../img/fondotron.jpg); 
   background-size:cover;
 }
 
@@ -78,7 +78,7 @@ border: 2px solid hotpink;
 
 .dropdown-menu{
   width:300px;
-  background-image:url(https://image.ibb.co/moxCt8/cuadrado.png);
+  background-image:url(../img/cuadrado.png);
       border-radius: 0 0 20px 20px!important;
       border: 3px solid white!important;
       border-top:none!important;
@@ -192,7 +192,7 @@ border: 2px solid hotpink;
   margin-bottom:5%;
   color:white;
   transition-duration:0.2s;
-  background:url(https://image.ibb.co/moxCt8/cuadrado.png);
+  background:url(../img/cuadrado.png);
   }
 
 
