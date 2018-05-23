@@ -10,7 +10,8 @@ $(window).scroll(function (){
   }
 });
 
-
+$(document).ready( function() {
+	
 $("#auto").click(function(){
   if(autoscroll){
     autoscroll=false;
@@ -23,6 +24,9 @@ $("#auto").click(function(){
 
 $("#cargarmas").click(function(){
   cargarJson();
+});
+	
+
 });
 
 ///////funciones
