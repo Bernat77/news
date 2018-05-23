@@ -5,7 +5,7 @@ var autoscroll=true;
 
 ///////eventos
 $(window).scroll(function (){
- if ($(window).scrollTop() + $(window).height() + 10 >= $(document).height() && autoscroll==true){
+ if ($(window).scrollTop() + $(window).height() + 150 >= $(document).height() && autoscroll==true){
    cargarJson();    
   }
 });
