@@ -2,15 +2,15 @@
 	"titulo":"Anunciado móvil exclusivo de Jojo’s Bizarre Adventure",
 	"fecha":"28 de Marzo de 2018, 6:16 PM",
 	"cuerpo":"Coincidiendo con el 30º aniversario de la saga, están teniendo varios eventos y colecciones exclusivos relacionados con la obra de Hirohiko Araki. Recientemente, el mangaka ha dado su aprobación para el lanzamiento de un móvil inspirado en su obra: el JOJO L-02K",
-	"imgs":"",
-	"imgn":"",
-	"alt":""
+	"imgs":"img/small/noticia5.png",
+	"imgn":"img/normal/noticia5.png",
+	"alt":"imagen_noticia"
 }, {
 	"titulo":"(Rumor) Un juego de Jojo's Bizarre Adventure podría estar siendo desarrollado para Nintendo Switch.",
 	"fecha":"25 de Febrero de 2018, 1:14 PM",
 	"cuerpo":"A pesar de que la saga sea muy querida desde hace muchos años en el país del sol naciente, la obra no ha recibido muchas adaptaciones al terreno del videojuego. Los últimos a cargo de la licencia fueron los chicos de Cyberconnect 2, los cuales podrían estar preparando un nuevo proyecto basado en el universo de los stands.",
-	"imgs":"",
-	"imgn":"",
-	"alt":""
+	"imgs":"img/small/noticia6.png",
+	"imgn":"img/normal/noticia6.png",
+	"alt":"imagen_noticia"
 }
 ]
