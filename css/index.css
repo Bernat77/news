@@ -220,7 +220,6 @@ border: 2px solid hotpink;
     width:100%;
     background:black;
     border-top:2px solid white;
-  
 }
 
 @media(max-width:1030px) {
@@ -355,3 +354,7 @@ border: 2px solid transparent;
   #cuerpo{
     background-color:transparent;
   }
+	
+  #pie{
+    height:50px;
+}
