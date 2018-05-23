@@ -1,7 +1,7 @@
-## Página de noticias: Documentación.
+# Página de noticias: Documentación.
 
 
-# Link de Rawgit:
+## Link de Rawgit:
 https://rawgit.com/Bernat77/news/0.2/index.html
 
 
