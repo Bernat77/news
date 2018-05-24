@@ -4,6 +4,7 @@
 ## Link de Rawgit:
 https://rawgit.com/Bernat77/news/0.3/index.html
 
+**v0.3**
 
 **v0.2**
 La versión 0.2 añade la funcionalidad de cargar los ficheros Json y toda la codificación.
