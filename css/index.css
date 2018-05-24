@@ -255,37 +255,37 @@ html, body{
 /*entre pc y móvl (tablet u otros dispositivos)*/
  @media(max-width:1030px) {
      .nav a{
-         font-size:15px!important;
+         font-size:13px!important;
     }
      .nav li{
          padding:1px!important;
     }
      #auto{
-         width:170px;
-         text-align:center;
-         font-size:13.5px!important;
+         font-size:13px!important;
     }
-     .titulonot h3{
-         font-family: sans-serif;
-         background:rgba(1,1,1,0.6);
-         width:100%;
-         font-size:24px;
-         padding:25px;
-         border-radius:30px;
+     .titulo h3{
+         font-size:22px;
+    }
+     .fecha{
+         font-size:13px;
+    }
+     .cuerpo{
+         font-size:14px;
+    }
+     .cuerpo h3{
+         font-size:17px;
+    } 
+     .titulo h3{
+         font-size:22px;
     }
      .fechanot{
-         position:relative;
-         top:10px;
-         font-size:15px;
-         text-shadow: 3px 1px 6px aqua;
-         padding-right:25px;
-         padding-bottom:15px;
+         font-size:13px;
     }
      .cuerponot{
-         font-size:16px;
+         font-size:14px;
     }
      .cuerponot h3{
-         font-size:19px;
+         font-size:17px;
     }
 }
 /* --movil-- */
