@@ -9,19 +9,22 @@ $(window).scroll(function() {
     }
 });
 
+$(document).ready( function() {
 
-$("#auto").click(function() {
-    if (autoscroll) {
-        autoscroll = false;
-        $('#auto').text("Activar Auto-Scroll");
-    } else {
-        autoscroll = true;
-        $('#auto').text("Desactivar Auto-Scroll");
-    }
+    $("#auto").click(function() {
+        if (autoscroll) {
+            autoscroll = false;
+            $('#auto').text("Activar Auto-Scroll");
+        } else {
+            autoscroll = true;
+         $('#auto').text("Desactivar Auto-Scroll");
+     }
 });
 
 $("#cargarmas").click(function() {
     cargarJson();
+});
+    
 });
 
 ///////funciones
