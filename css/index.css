@@ -414,6 +414,12 @@ html, body{
      .cuerponot h3{
          font-size:19px;
     }
+     .cuadronot{
+         padding-top:1px;
+         padding-bottom:50px;
+         padding-right:15px;
+         padding-left:15px;
+    }
      .cuadronot img{
          border-radius:30px;
     }
