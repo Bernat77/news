@@ -4,8 +4,9 @@ var autoscroll = true;
 
 ///////eventos
 $(window).scroll(function() {
+    var boton = false;
     if ($(window).scrollTop() + $(window).height() + 90 >= $(document).height() && autoscroll == true) {
-        cargarJson();
+        cargarJson(boton);
     }
 });
 
@@ -22,22 +23,23 @@ $(document).ready( function() {
 });
 
 $("#cargarmas").click(function() {
-    cargarJson();
+    var boton = true;
+    cargarJson(boton);
 });
     
 });
 
 ///////funciones
 
-function cargarJson() {
+function cargarJson(boton) {
 
     if (json < 5) {
         $("#cargando").show();
-        autoscroll = false;
+        autoscroll=boton;
         $.getJSON("https://rawgit.com/Bernat77/news/master/data/json" + json + ".json", function(jsonObject) {
             añadirJson(jsonObject);
             $("#cargando").hide();
-            autoscroll = true;
+            autoscroll = !boton;
         });
         json++;
         row++;
@@ -46,6 +48,7 @@ function cargarJson() {
         $("#cargarmas").addClass("disabled");
     }
 }
+
 
 
 function añadirJson(json) {
