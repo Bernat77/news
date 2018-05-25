@@ -1,44 +1,438 @@
-#barranav{
-  background:linear-gradient(mediumorchid, indigo,black,black, black);
+﻿html, body{
+     height:100%;
+     padding:0px;
+     margin:0px;
 }
-
-#eslogan{
-  background-image: url(../img/fondotron.jpg); 
-  background-size:cover;
+ body{
+     background-image:url(https://rawgit.com/Bernat77/news/0.1/img/fondobody.png);
 }
-
-#logo{
-  max-height: 290px;
+ #cargando{
+     position:fixed;
+     z-index:1030;
+     margin:0 auto;
+     top:0;
+     width:100%;
+     height:100%;
+     background:rgba(100,65,0,0.8);
 }
-
-#barra{
-  height:20px;
-  background: linear-gradient(black,white,pink,fuchsia, violet);
+ #cargando img{
+     position:relative;
+     top:45%;
 }
-
-   .nav a {
-        transition-duration:0.1s;
-        font-size: 20px !important;
-        font-family: fantasy;
-        color:white !important;
-
+ #barranav{
+     background-image: url(https://image.ibb.co/moxCt8/cuadrado.png);
+     background-size:450px 
 }
-
-.nav a:hover { 
-  transition-duration:0.15s;
-    color:white!important;
-    background-color:magenta!important;
-    border-radius: 20px;
+ .icon-bar {
+     background:white !important;
+    /*Whatever colour you want for icon lines*/
 }
-
-@media(max-width:767px) {
-      #icono{
-        padding-left:15px;
-        }
-  
-  #publi1{
-    padding:20px;
-  }
-  
-  
+ .navbar-toggle {
+     background: indigo!important;
+     border: 1px solid white!important;
+}
+ .nav li{
+     padding-right:10px;
+}
+ .nav a {
+     transition-duration:0.15s;
+     font-size: 20px !important;
+     font-family: sans-serif;
+     color:white !important;
+     border-radius: 20px;
+     background:rgba(1,1,1,0.6);
+}
+ .nav a:hover {
+     transition-duration:0.15s;
+     color:white!important;
+     background-color:magenta!important;
+     border-radius: 20px;
+}
+ .nav a:focus{
+     color:white!important;
+     background-color:magenta!important;
+     border-radius: 20px;
+}
+ .dropdown-menu{
+     width:300px;
+     background-image:url(https://image.ibb.co/moxCt8/cuadrado.png);
+     border-radius: 0 0 20px 20px!important;
+     border: 3px solid white!important;
+     border-top:none!important;
+}
+ .dropdown-menu>li{
+     padding:6px;
+     color:white;
+}
+ #dp2{
+     position:relative;
+     right:40px;
+}
+ #dp2 ul{
+     padding:20px;
+}
+ #dp2 p{
+     text-align:center;
+}
+ #dp2 button{
+     color:magenta;
+}
+ #auto{
+     transition-duration:0.2s;
+     width:250px;
+     text-align:center;
+     color:Magenta!important;
+     background-color:white;
+     border: 3px solid hotpink;
+}
+ #auto:hover{
+     transition-duration:0.3s;
+     color:white!important;
+     background-color:magenta;
+}
+ #eslogan{
+     background-image: url(https://rawgit.com/Bernat77/news/master/img/fondotron.jpg);
+     background-size:cover;
+}
+ #logo{
+     max-height: 380px;
+     background: rgba(300, 300, 300, 0.28);
+     border: 2px solid transparent;
+     border-radius: 200px;
+     transition-duration:0.3s;
+}
+ #logo:hover{
+     background: rgba(300, 0, 300, 0.6);
+     transform: scale(1.1, 1.1);
+     border: 2px solid hotpink;
+     border-radius: 200px;
+}
+ #barra{
+     height:20px;
+     background: linear-gradient(black,white,pink,fuchsia, violet);
+}
+ #publi1{
+     display:none;
+}
+ #publi2{
+     position:relative;
+     float: right;
+     width: 300px;
+     top: 20px;
+     right: 0;
+     z-index:2;
+     display:block;
+}
+ #publi2 iframe{
+     border: 1px solid white;
+     border-radius: 3px;
+     width:300px;
+     height:600px;
+}
+ #noticias{
+     position:relative;
+     padding-right:350px;
+     top:30px;
+}
+ .titulo h3{
+     font-family: sans-serif;
+     background:rgba(1,1,1,0.6);
+     width:100%;
+     font-size:30px;
+     padding:15px;
+     border-radius:30px;
+}
+ .titulo a{
+     transition-duration:0.2s;
+     color:white 
+}
+ .titulo a:hover{
+     text-decoration:none;
+     color:aquamarine;
+     text-shadow: 1px 3px 30px aqua;
+     transition-duration:0.2s;
+}
+ .fecha{
+     position:relative;
+     top:10px;
+     font-size:15px;
+     text-shadow: 3px 1px 6px aqua;
+     padding-right:25px;
+}
+ .cuerpo{
+     padding:14px;
+     border-radius:15px;
+     background:rgba(300,300,300,0.3);
+     width:100%;
+     font-size:17px;
+     text-shadow: 0px 0px 5px black;
+}
+ .cuadro{
+     background-color:indigo;
+     border-radius:20px;
+     padding-top:1px;
+     padding-bottom:10px;
+     padding-right:20px;
+     padding-left:20px;
+     margin-top:2%;
+     margin-bottom:5%;
+     color:white;
+     transition-duration:0.2s;
+     background:url(https://image.ibb.co/moxCt8/cuadrado.png);
+}
+ .cuadro img{
+     padding:3%;
+    /* width:100%;
+     */
+     border-radius:30px;
+}
+ .cuadro:hover{
+     transform: scale(1.05,1.05);
+     transition-duration:0.35s;
+}
+/*noticia individual*/
+ .titulonot h3{
+     font-family: sans-serif;
+     background:rgba(1,1,1,0.6);
+     width:100%;
+     font-size:35px;
+     padding:25px;
+     border-radius:30px;
+}
+ .fechanot{
+     position:relative;
+     top:10px;
+     font-size:20px;
+     text-shadow: 3px 1px 6px aqua;
+     padding-right:25px;
+     padding-bottom:15px;
+}
+ .cuerponot{
+     padding:25px;
+     border-radius:15px;
+     background:rgba(300,300,300,0.3);
+     width:100%;
+     font-size:20px;
+     text-shadow: 0px 0px 5px black;
+}
+ .cuerponot h3{
+     font-size:25px;
+}
+ .cuadronot{
+     border-radius:20px;
+     padding-top:25px;
+     padding-bottom:50px;
+     padding-right:50px;
+     padding-left:50px;
+     margin-top:2%;
+     margin-bottom:100px;
+     color:white;
+     transition-duration:0.2s;
+     background:url("../img/cuadrado.png");
+}
+ .cuadronot img{
+     padding:3%;
+     border-radius:50px;
+}
+ #video{
+     padding:3%;
+     border-radius: 60px;
+}
+ #cargarmas{
+     background:linear-gradient(violet,pink,white,pink,indigo,black);
+     height:60px;
+     color:magenta;
+     margin-bottom:60px;
+     text-shadow: 1px 5px 10px hotpink;
+}
+ #pie{
+     height:100px;
+     bottom:0;
+     width:100%;
+     background:black;
+     border-top:2px solid white;
+}
+/*entre pc y móvl (tablet u otros dispositivos)*/
+ @media(max-width:1030px) {
+     #cargando img{
+     top:35%;
+     right:10px;
+    } 
+     .nav a{
+         font-size:13px!important;
+    }
+     .nav li{
+         padding:1px!important;
+    }
+     #auto{
+         font-size:13px!important;
+          width:180px;
+    }
+     .titulo h3{
+         font-size:22px;
+    }
+     .fecha{
+         font-size:13px;
+    }
+     .cuerpo{
+         font-size:14px;
+    }
+     .cuerpo h3{
+         font-size:17px;
+    } 
+     .titulonot h3{
+         font-size:22px;
+    }
+     .fechanot{
+         font-size:13px;
+    }
+     .cuerponot{
+         font-size:14px;
+    }
+     .cuerponot h3{
+         font-size:17px;
+    }
+}
+/* --movil-- */
+ @media(max-width:767px) {
+     #cargando img{
+     top:30%;
+     right:10px;
+    } 
+     .nav a{
+         font-size:20px!important;
+    }
+     #auto{
+         width:250px;
+         font-size:20px!important;
+    }
+     .nav>li{
+         padding:10px!important;
+    }
+     .dropdown-menu{
+         border-radius: 0 0 20px 20px!important;
+         border: 3px solid white!important;
+    }
+     .dropdown-menu>li{
+         padding:12px!important;
+         border-bottom: 1px dashed white!important;
+    }
+     #dp2{
+         right:0px;
+    }
+     #dp2 ul{
+         padding:20px;
+    }
+     #dp2 p{
+         text-align:center;
+    }
+     #dp2 button{
+         color:magenta;
+    }
+     #noticias{
+         position:relative;
+         float:none;
+         padding-top:20px;
+         padding-right:0;
+         padding-left:0;
+    }
+     .cuadro{
+         background-color:indigo;
+         border-radius:30px;
+         margin-top:1%;
+         margin-bottom:10%;
+         color:white;
+    }
+     .cuadro:hover{
+         transform: none;
+    }
+     .cuadro img{
+         border-radius:30px;
+    }
+     #publi2{
+         display:none;
+    }
+     #icono{
+         padding-left:15px;
+    }
+     #publi1{
+         position:relative;
+         display:block;
+         top:20px;
+         bottom:20px;
+         padding:0;
+         background:transparent;
+    }
+     #publi1 iframe{
+         width:320px;
+         height:100px;
+         border: 1px solid white;
+         border-radius: 3px;
+    }
+     #logo{
+         max-height: 380px;
+         background: rgba(300, 300, 300, 0.15);
+         border: 2px solid transparent;
+         border-radius: 200px;
+         transition-duration:0.3s;
+    }
+     #logo:hover{
+         background: rgba(300, 300, 300, 0.1);
+         transform: scale(1.05, 1.05);
+         border: 2px solid transparent;
+         border-radius: 200px;
+    }
+     .titulo h3{
+         font-size:23px;
+         padding:15px;
+         border-radius:30px;
+    }
+     .fecha{
+         font-size:12px;
+         top:0;
+    }
+     .cuerpo{
+         font-size:14px;
+    }
+     #pie{
+         height:50px;
+    }
+     #cuerpo{
+         background-color:transparent;
+    }
+    /*noticia individual movil*/
+     .titulonot h3{
+         font-family: sans-serif;
+         background:rgba(1,1,1,0.6);
+         width:100%;
+         font-size:24px;
+         padding:25px;
+         border-radius:30px;
+    }
+     .fechanot{
+         position:relative;
+         top:10px;
+         font-size:15px;
+         text-shadow: 3px 1px 6px aqua;
+         padding-right:25px;
+         padding-bottom:15px;
+    }
+     .cuerponot{
+         font-size:16px;
+    }
+     .cuerponot h3{
+         font-size:19px;
+    }
+     .cuadronot{
+         padding-top:1px;
+         padding-bottom:50px;
+         padding-right:15px;
+         padding-left:15px;
+    }
+     .cuadronot img{
+         border-radius:30px;
+    }
+     #video{
+         border-radius:30px;
+    }
 }

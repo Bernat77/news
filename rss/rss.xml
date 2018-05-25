@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<rss version='2.0' xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>Jojo's Bizarre Adventure HOT news!</title>
+	<link>https://rawgit.com/Bernat77/news/master/index.html</link>
+	<description>Noticias, novedades, exclusivas, entrevistas, información y curiosidades sobre Jojo's Bizarre Adventure de Hirohiko Araki.</description>
+	<image>
+		<url>https://rawgit.com/Bernat77/news/master/img/logo.png</url>
+		<title>www.jojohotnews.es</title>
+		<link>https://rawgit.com/Bernat77/news/master/index.html</link>
+	</image>
+	<item>
+		<title>Arc System Works podría acabar desarrollando un videojuego de Jojo's Bizarre Adventure si los fans lo desean.</title>
+		<link>https://rawgit.com/Bernat77/news/master/noticia1.html</link>
+		<description>		
+			<![CDATA[<img src="https://rawgit.com/Bernat77/news/master/img/small/noticia1.png" alt="noticia_1">
+			]]>
+			Arc System Works, creadores del reciente Dragon Ball FighterZ y títulos de la talla de Guilty Gear Xrd o la saga BlazBlue, podría estar pensando ya en qué nuevo manga adaptar al mundo del videojuego. La propuesta de los fans es crear un título al estilo de FighterZ: con mecánicas de lucha en 2.5D y uno de los candidatos es la saga Jojo's Bizarre Adventure.
+		</description>
+		<pubDate>Sun, 20 May 2018 17:32:00 GMT</pubDate>
+	</item>
+	<item>
+		<title>Nuevo vídeo promocional de la segunda OVA de Thus Spoke Kishibe Rohan.</title>
+		<link>https://rawgit.com/Bernat77/news/master/noticia2.html</link>
+		<description>		
+			<![CDATA[<img src="https://rawgit.com/Bernat77/news/master/img/small/noticia2.png" alt="noticia_2">
+			]]>
+			Warner Bros Japón ha colgado un nuevo teaser de la futura segunda OVA basada en el manga 'Kishibe Rohan wa Ugokanai' y realizada por David Production. Después de tanta espera, parece ser que la fecha de lanzamiento está prevista para el 19 de julio.
+		</description>
+		<pubDate>Fri, 18 May 2018 19:04:00 GMT</pubDate>  
+	</item>
+</channel>
+</rss>
