@@ -2,7 +2,7 @@
 
 
 ## Link de Rawgit:
-https://rawgit.com/Bernat77/news/0.3/index.html
+https://rawgit.com/Bernat77/news/master/index.html
 
 ---
 
