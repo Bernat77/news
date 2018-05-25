@@ -50,4 +50,4 @@ La idea original y la que se ha acabado realizando consiste en una página divid
 * El contenedor de noticias estará situado a la izquierda de la publicidad de pcy en la versión móvil ocupará todo el ancho de la ventana. La vista de noticias será en filas de dos noticias por cada una mientras que en móvil la visualización será en cascada.
 * El pie de página contendrá un espacio en negro para fijar datos empresariales en caso de que se necesiten.
 
-
+En la página de la noticia individual no habrá javascript y el diseño será casi idéntico al diseño de la página principal, se utilizará solo un contenedor para mostrar la noticia completa junto con las imágenes y/o videos que esta contendrá.
