@@ -4,8 +4,9 @@
 ## Link de Rawgit:
 https://rawgit.com/Bernat77/news/master/index.html
 
+---
 
-### Registro de versiones.
+## Registro de versiones.
 ---
 **v0.4**
 * Página de la segunda noticia creada con las mismas características que la primera.
@@ -33,6 +34,7 @@ La versión 0.2 añade la funcionalidad de cargar los ficheros Json y toda la co
 
 * La versión 0.1 es el diseño de la página, con las noticias precargadas, los anuncios colocados y poco más. Todavía necesita toda la codificación.
 
+---
 ## Especificaciones y requisitos:
 
 * El cliente encarga una página web codificada capaz de leer ficheros json desde servidor para cargar noticias, esta función se llevará a cabo a través al realizar scroll hacia abajo y con un botón de carga. Se utilizará bootstrap y jquery para la codificación.
@@ -40,6 +42,7 @@ La versión 0.2 añade la funcionalidad de cargar los ficheros Json y toda la co
 * El diseño es de libre elección pero la adaptabilidad deberá ser total para cualquier dispositivo.
 * Deberá realizarse un archivo rss para acelerar la publicación de la página en redes y el registro de nuestras últimas noticias por Google.
 
+---
 ## Idea principal
 
 La idea original y la que se ha acabado realizando consiste en una página dividida entre un banner con el logo de la página, una barra de navegación, la publicidad, el contenedor de las noticias y un pie de página.
