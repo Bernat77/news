@@ -5,7 +5,7 @@ var autoscroll = true;
 ///////eventos
 $(window).scroll(function() {
     var boton = false;
-    if ($(window).scrollTop() + $(window).height() + 60 >= $(document).height() && autoscroll == true) {
+    if ($(window).scrollTop() + $(window).height() + 80 >= $(document).height() && autoscroll == true) {
         cargarJson(boton);
     }
 });
