@@ -49,10 +49,21 @@ La versión 0.2 añade la funcionalidad de cargar los ficheros Json y toda la co
 
 La idea original y la que se ha acabado realizando consiste en una página dividida entre un banner con el logo de la página, una barra de navegación, la publicidad, el contenedor de las noticias y un pie de página.
 
-* La barra de navegación estará fija arriba en todo momento y contendrá accesos rápidos de enlaces de interes, así como la sección de registro/ingreso.
+* La barra de navegación estará fija arriba en todo momento y contendrá accesos rápidos de enlaces de interes, el botón para activar/desactivar el auto-scroll, así como una sección de registro/ingreso.
 * El banner será decorativo: Contará con un fondo grande y el logo de la página, este capaz de adaptarse a cualquier dispositivo.
 * La publicidad de PC estará a la derecha de las primeras noticias fija y será de 300x600 píxeles, mientras que la de móvil será de 320x100px, estará centrada y fija entre el banner y el contenedor de noticias.
-* El contenedor de noticias estará situado a la izquierda de la publicidad de pcy en la versión móvil ocupará todo el ancho de la ventana. La vista de noticias será en filas de dos noticias por cada una mientras que en móvil la visualización será en cascada.
+* El contenedor de noticias estará situado a la izquierda de la publicidad de pc y en la versión móvil ocupará todo el ancho de la ventana con unos pequeños margenes laterales. La vista de noticias será en filas de dos noticias por cada una en escritorio mientras que en móvil la visualización será en cascada.
 * El pie de página contendrá un espacio en negro para fijar datos empresariales en caso de que se necesiten.
 
 En la página de la noticia individual no habrá javascript y el diseño será casi idéntico al diseño de la página principal, se utilizará solo un contenedor para mostrar la noticia completa junto con las imágenes y/o videos que esta contendrá.
+
+---
+## Bocetos
+
+### Versión escritorio:
+
+![boceto escritorio](https://rawgit.com/Bernat77/news/master/bocetoescritorio.jpg)
+
+### Versión móvil:
+
+![boceto movil](https://rawgit.com/Bernat77/news/master/bocetomovil.jpg)
