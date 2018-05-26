@@ -38,7 +38,7 @@ La versión 0.2 añade la funcionalidad de cargar los ficheros Json y toda la co
 ## Especificaciones y requisitos:
 
 * El cliente encarga una página web codificada capaz de leer ficheros json desde servidor para cargar noticias, esta función se llevará a cabo a través al realizar scroll hacia abajo y con un botón de carga. Se utilizará bootstrap y jquery para la codificación.
-* La página deberá tener publicidad, por lo que la versión escritorio deberá tener un espacio de 300px de amplio mientras que la versión móvil deberá contar con la capacidad para mostrar publicidad de 100px de alto.
+* La página deberá tener publicidad, por lo que la versión escritorio deberá tener un espacio de 336px mínimo de espacio para publicidad, mientras que la versión móvil deberá contar con la capacidad para mostrar publicidad de 100px de alto.
 * El diseño es de libre elección pero la adaptabilidad deberá ser total para cualquier dispositivo.
 * Deberá realizarse un archivo rss para acelerar la publicación de la página en redes y el registro de nuestras últimas noticias por Google.
 
@@ -49,7 +49,7 @@ La idea original y la que se ha acabado realizando consiste en una página divid
 
 * La barra de navegación estará fija arriba en todo momento y contendrá accesos rápidos de enlaces de interes, así como la sección de registro/ingreso.
 * El banner será decorativo: Contará con un fondo grande y el logo de la página, este capaz de adaptarse a cualquier dispositivo.
-* La publicidad de PC estará a la derecha de las primeras noticias fija y será de 300x600 píxeles, mientras que la de móvil estará centrada y fija entre el banner y el contenedor de noticias.
+* La publicidad de PC estará a la derecha de las primeras noticias fija y será de 300x600 píxeles, mientras que la de móvil será de 320x100px, estará centrada y fija entre el banner y el contenedor de noticias.
 * El contenedor de noticias estará situado a la izquierda de la publicidad de pcy en la versión móvil ocupará todo el ancho de la ventana. La vista de noticias será en filas de dos noticias por cada una mientras que en móvil la visualización será en cascada.
 * El pie de página contendrá un espacio en negro para fijar datos empresariales en caso de que se necesiten.
 
