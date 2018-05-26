@@ -5,7 +5,7 @@ var autoscroll = true;
 ///////eventos
 $(window).scroll(function() {
     var boton = false;
-    if ($(window).scrollTop() + $(window).height() + 80 >= $(document).height() && autoscroll == true) {
+    if ($(window).scrollTop() + $(window).height() + 100 >= $(document).height() && autoscroll == true) {
         cargarJson(boton);
     }
 });
@@ -24,7 +24,9 @@ $(document).ready( function() {
 
 $("#cargarmas").click(function() {
     var boton = true;
+    if(!autoscroll){
     cargarJson(boton);
+    }
 });
     
 });
