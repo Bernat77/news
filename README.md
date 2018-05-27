@@ -15,6 +15,7 @@ https://rawgit.com/Bernat77/news/master/index.html
 * Completadas las etiquetas de open graph.
 * Corregidos algunos fallos de adaptabilidad del diseño en dispositivos tablet.
 * RSS completado y validado.
+* Botón "Cargar más" codificado para estar desactivado si el autoscroll está activado.
 ---
 **v0.3**
 * Página de la segunda noticia creada y enlazada a index.html con la notica escrita, la imagen grande y un vídeo responsive.
