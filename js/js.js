@@ -37,7 +37,7 @@ function cargarJson(boton) {
 
     if (json < 5) {
         $("#cargando").show();
-        autoscroll = boton;
+        autoscroll = false;
         $.getJSON("https://rawgit.com/Bernat77/news/master/data/json" + json + ".json", function(jsonObject) {
             añadirJson(jsonObject);
             $("#cargando").hide();
