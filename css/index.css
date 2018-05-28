@@ -236,7 +236,6 @@
 }
  #video{
      padding:3%;
-     border-radius: 60px;
 }
  #cargarmas{
      background:linear-gradient(violet,pink,white,pink,indigo,black);
@@ -430,9 +429,6 @@
          padding-left:15px;
     }
      .cuadronot img{
-         border-radius:30px;
-    }
-     #video{
          border-radius:30px;
     }
 }
