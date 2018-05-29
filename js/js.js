@@ -1,6 +1,6 @@
 ///////variables
 var json = 1;
-var autoscroll = true;
+var autoscroll = false;
 
 ///////eventos
 $(window).scroll(function() {
