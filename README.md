@@ -4,7 +4,7 @@
 ## Link de Rawgit:
 https://rawgit.com/Bernat77/news/master/index.html
 
-(Nota: El autoscroll está activado por defecto.)
+(Nota: El autoscroll está desactivado por defecto.)
 
 ---
 
