@@ -11,7 +11,7 @@ https://rawgit.com/Bernat77/news/master/index.html
 ## Registro de versiones.
 ---
 **v0.4**
-* Página de la segunda noticia creada con las mismas características que la primera.
+* Página de la primera noticia creada con las mismas características que la primera.
 * Completadas las etiquetas de open graph.
 * Corregidos algunos fallos de adaptabilidad del diseño en dispositivos tablet.
 * RSS completado y validado.
