@@ -58,7 +58,7 @@ function añadirJson(json) {
     $.each(json, function(i, item) {
         $("#filas .row:last").append('<div class="col-sm-12 col-md-6">' +
             '<div class="cuadro">' + '<div class="titulo">' + '<h3 class="text-center"><a href=#>' +
-            item.titulo + '<a></h3>' + '</div>' + '<p class="text-right fecha"><i>' + item.fecha +
+            item.titulo + '</a></h3>' + '</div>' + '<p class="text-right fecha"><i>' + item.fecha +
             '</i></p>' + '<img src="' + item.imgs + '" class="img-responsive center-block" alt="' +
             item.alt + '">' + '<p class="cuerpo">' + item.cuerpo + '</p>' + '</div>' + '</div>');
 
