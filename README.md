@@ -8,6 +8,11 @@ https://rawgit.com/Bernat77/news/master/index.html
 
 ---
 
+## Correción profesor.
+
+* Arreglada la carga con fadeIn, fadeOut.
+* todos los eventos colocados dentro de ready.
+
 ## Registro de versiones.
 ---
 **v0.4**
