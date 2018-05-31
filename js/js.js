@@ -3,14 +3,15 @@ var json = 1;
 var autoscroll = false;
 
 ///////eventos
-$(window).scroll(function() {
-    var boton = false;
-    if ($(window).scrollTop() + $(window).height() + 100 >= $(document).height() && autoscroll == true) {
-        cargarJson(boton);
-    }
-});
 
 $(document).ready(function() {
+	
+	$(window).scroll(function() {
+		var boton = false;
+		if ($(window).scrollTop() + $(window).height() + 100 >= $(document).height() && autoscroll == true) {
+        cargarJson(boton);
+		}
+	});
 
     $("#auto").click(function() {
         if (autoscroll) {
@@ -36,11 +37,11 @@ $(document).ready(function() {
 function cargarJson(boton) {
 
     if (json < 5) {
-        $("#cargando").show();
+        $("#cargando").fadeIn(300);
         autoscroll = false;
         $.getJSON("https://rawgit.com/Bernat77/news/master/data/json" + json + ".json", function(jsonObject) {
             añadirJson(jsonObject);
-            $("#cargando").hide();
+            $("#cargando").fadeOut(400);
             autoscroll = !boton;
         });
         json++;
