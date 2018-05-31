@@ -41,7 +41,7 @@ function cargarJson(boton) {
         autoscroll = false;
         $.getJSON("https://rawgit.com/Bernat77/news/master/data/json" + json + ".json", function(jsonObject) {
             añadirJson(jsonObject);
-            $("#cargando").fadeOut(400);
+            $("#cargando").fadeOut(100);
             autoscroll = !boton;
         });
         json++;
@@ -62,8 +62,7 @@ function añadirJson(json) {
             item.titulo + '</a></h3>' + '</div>' + '<p class="text-right fecha"><i>' + item.fecha +
             '</i></p>' + '<img src="' + item.imgs + '" class="img-responsive center-block" alt="' +
             item.alt + '">' + '<p class="cuerpo">' + item.cuerpo + '</p>' + '</div>' + '</div>');
-
-
+	    
     })
 
 }
