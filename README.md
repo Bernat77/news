@@ -52,7 +52,7 @@ La idea original y la que se ha acabado realizando consiste en una página divid
 
 * La barra de navegación estará fija arriba en todo momento y contendrá accesos rápidos de enlaces de interes, el botón para activar/desactivar el auto-scroll, así como una sección de registro/ingreso.
 * El banner será decorativo: Contará con un fondo grande y el logo de la página, este capaz de adaptarse a cualquier dispositivo.
-* La publicidad de PC estará a la derecha de las primeras noticias fija y será de 300x600 píxeles, mientras que la de móvil será de 320x100px, estará centrada y fija entre el banner y el contenedor de noticias.
+* La publicidad de PC estará a la derecha de las primeras noticias fija y será de 300x600 píxeles con un espacio para esta de 350px, mientras que la de móvil será de 320x100px, estará centrada y fija entre el banner y el contenedor de noticias.
 * El contenedor de noticias estará situado a la izquierda de la publicidad de pc y en la versión móvil ocupará todo el ancho de la ventana con unos pequeños margenes laterales. La vista de noticias será en filas de dos noticias por cada una en escritorio mientras que en móvil la visualización será en cascada.
 * El pie de página contendrá un espacio en negro para fijar datos empresariales en caso de que se necesiten.
 
